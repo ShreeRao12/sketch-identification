@@ -1,0 +1,33 @@
+body
+{
+background-color: yellow;
+}
+h1
+{
+background-color: gainsboro;
+font-family: 'Sansita Swashed', cursive;
+padding-left: 70px;
+}
+#show_sketch
+{
+ float:right;
+}
+#label, #confidence
+{
+ font-size: 20px;
+}
+canvas
+{
+border: 3px solid grey;
+border-radius: 20px;
+margin-top: 50px;
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+from{box-shadow: 10px 10px 5px #34e8eb;}
+to{box-shadow: 10px 10px 5px #fba7fc;}
+}
